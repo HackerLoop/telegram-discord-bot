@@ -12,19 +12,20 @@ the right messages.
 ruby forward.rb DISCORD_BOT_TOKEN DISCORD_CHANNEL_ID
 ```
 
-From there: 
+Then
 
 - wait a few seconds, the script should stop outputting anything
 - enter your phone in the following format `336XXX...`
 - wait until you receive the authentication code on your phone
 - enter the authentication code
-- let it live
+
+From there, it will run forever, while forwarding message sent by `CryptoPing` to Discord
 
 
 ## Todo 
 
-- [] Enable to select the username to be forwarded
-- [] Move ruby script inside the docker image
+- [ ] Enable to select the username to be forwarded
+- [ ] Move ruby script inside the docker image
 
 ## Notes
 
